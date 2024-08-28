@@ -1,13 +1,13 @@
 let temp = 17;
 
 function convertToFarenheit(temp){
-tempFar= (temp * (9/5)+32);
-console.log(tempFar)
+let tempFar= (temp * (9/5)+32);
+console.log(tempFar.toFixed(1))
 }
 
 function convertToCelsius(temp){
-    tempCel= (temp - 32) * (5/9);
-    console.log(tempCel)
+    let tempCel= (temp - 32) * (5/9);
+    console.log(tempCel.toFixed(1))
 }
 
 convertToCelsius(temp);
